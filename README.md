@@ -202,4 +202,28 @@ git clone https://github.com/Tory-Hwang/Jetson-Nano2
 (yolo) dli@jdli:~/Jetson-Nano2$treee -L 2
 ```
 트리를 실행하면 다음과 같은 결과가 나와야한다.
+
 ![image](https://github.com/moon-joy/Jetson-nano/assets/171406702/7c4b161b-5c27-40d6-a1b8-8eb1ec1ac9b3)
+
+이후 https://github.com/ultralytics/ultralytics?tab=readme-ov-file 이 링크에서 yolov8n.py를 다운로드 해준다. 경로는 (yolo) dli@jetson:~/Jetson-Nano2/V8 이다.
+
+![image](https://github.com/moon-joy/Jetson-nano/assets/171406702/86595bc6-3a20-4390-b2aa-42371a5c4c87)
+
+이제 파일을 실행시켜 주기만하면 된다. 
+
+```
+python detectY8.py
+```
+이떄 경로는 (yolo) dli@jetson:~/Jetson-Nano2/V8 로 디렉토리 안에 들어가서 명령어를 쳐야 실행된다.
+
+만약 오류가 발생한다면  detectY8.py 파일의 코드를 수정해야한다. 
+
+
+![image](https://github.com/moon-joy/Jetson-nano/assets/171406702/89a2570f-bc42-4539-af35-9cbc9b143529)
+
+detectY8.py에 들어가서 사진과 같은 코드를 찾아 수정하고 다시 실행하면 된다.
+
+작동 결과는 유튜브에서 확인 가능하다. https://youtu.be/HxUnThdKvtA?si=D56TcjKOtVIDa_Bg 
+
+이밖에도 유튜브 영상을 통해 차량을 인식하고 차량의 수를 카운팅 하는 방법도 있다. 해당 코드파일은 Mooncar.py 로 같은 경로에서 실행하면 된다. 
+실행결과는 유튜브에서 확인 가능하다.  https://youtu.be/DsK_KfN4lEY?si=9n7zl538FD2ttwSG   
