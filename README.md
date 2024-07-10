@@ -14,9 +14,11 @@
 기본세팅의 자세한 사항은 https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write 에서 확인해주세요.
 
 ""참고 링크 https://github.com/jetsonmom/yolov8_jetson4GB?tab=readme-ov-file   ,    https://cyb.tw/docs/Tech/2020/9/18_Install-anaconda-on-Jetson-Nano.html#install-archiconda ""
-
+```
 sudo apt update
 sudo apt upgarde
+```
+
 wget --quiet -O archiconda.sh https://github.com/Archiconda/build-tools/releases/download/0.2.3/Archiconda3-0.2.3-Linux-aarch64.sh && \
     sh archiconda.sh -b -p $HOME/archiconda3 && \
     rm archiconda.sh
