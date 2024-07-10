@@ -181,14 +181,27 @@ cuda used True
 ```
 git clone https://github.com/Tory-Hwang/Jetson-Nano2
 ```
+
 ```
-(yolo) dli@dli:~$ cd Jetson-Nano2/
-(yolo) dli@dli:~/Jetson-Nano2$ cd V8
-(yolo) dli@dli:~/Jetson-Nano2/V8$ pip install ultralytics
-(yolo) dli@dli:~/Jetson-Nano2/V8$ pip install -r requirements.txt 
-(yolo) dli@jdli:~/Jetson-Nano2/V8$ pip install ffmpeg-python
-(yolo) dli@dli:~/Jetson-Nano2$ sudo apt install tree
-(yolo) dli@jdli:~/Jetson-Nano2$treee -L 2
+cd Jetson-Nano2/
+```
+```
+cd V8
+```
+```
+pip install ultralytics
+```
+```
+pip install -r requirements.txt
+```
+```
+pip install ffmpeg-python
+```
+```
+sudo apt install tree
+```
+```
+treee -L 2
 ```
 트리를 실행하면 다음과 같은 결과가 나와야한다.
 
