@@ -201,7 +201,7 @@ pip install ffmpeg-python
 sudo apt install tree
 ```
 ```
-treee -L 2
+tree -L 2
 ```
 트리를 실행하면 다음과 같은 결과가 나와야한다.
 
